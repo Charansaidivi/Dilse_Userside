@@ -1,0 +1,28 @@
+export const itemData=[{
+    item_imag:"/assets/items/Bonda.jpg"
+},
+{
+    item_imag:"/assets/items/Dosa.jpg"
+},
+{
+    item_imag:"/assets/items/Idli.jpg"
+},
+{
+    item_imag:"/assets/items/Juice.jpg"
+},
+{
+    item_imag:"/assets/items/Pancake.jpg"
+},
+{
+    item_imag:"/assets/items/Paratha.jpg"
+},
+{
+    item_imag:"/assets/items/Poha.jpg"
+},
+{
+    item_imag:"/assets/items/Poori.jpg"
+},
+{
+    item_imag:"/assets/items/Vada.jpg"
+}
+]
