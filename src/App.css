@@ -399,13 +399,14 @@ body {
   }
   @media (max-width:576px){
     .topBarSection{
-      border: 1px solid red;
       padding: 0 25px;
 
     }
     .topBarSection .userAuth{
-      border: 1px solid red;
-      padding-right: 15px;
+      padding-right: 20px;
+    }
+    .topBarSection .companyTitle{
+      padding-right: 10px;
     }
     .landingSection{
       padding: 0 50px;
