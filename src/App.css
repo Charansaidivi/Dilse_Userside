@@ -58,6 +58,7 @@ body {
 .topBarSection .companyTitle{
   color: #ff6600;
   font-weight: bold;
+  font-size: large;
 }
 /* Item section */
 .itemSection {
@@ -398,8 +399,13 @@ body {
   }
   @media (max-width:576px){
     .topBarSection{
-      padding: 0 26px;
+      border: 1px solid red;
+      padding: 0 25px;
 
+    }
+    .topBarSection .userAuth{
+      border: 1px solid red;
+      padding-right: 15px;
     }
     .landingSection{
       padding: 0 50px;
