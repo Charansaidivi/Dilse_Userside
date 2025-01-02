@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { API_URL } from '../pages/apiData';
 import { ColorRing } from 'react-loader-spinner';
+import { Link } from 'react-router-dom';
 
 const Chains = () => {
   const [vendorData, setVendorData] = useState({});
@@ -61,6 +62,7 @@ const Chains = () => {
           vendorData.vendors.map((vendor, index) => (
             <div className="vendorBox" key={index}>
               {vendor.firms.map((item, firmIndex) => (
+                <Link key={item._id} to={`/products/${item._id}`}>
                 <div key={firmIndex}>
                   <div className="firmImage">
                     <img
@@ -69,6 +71,7 @@ const Chains = () => {
                     />
                   </div>
                 </div>
+                </Link>
               ))}
             </div>
           ))}
