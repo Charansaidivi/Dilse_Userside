@@ -399,12 +399,10 @@ body {
   }
   @media (max-width:576px){
     .topBarSection{
-      border: 1px solid red;
       padding: 0 25px;
 
     }
     .topBarSection .userAuth{
-      border: 1px solid red;
       padding-right: 15px;
     }
     .landingSection{
